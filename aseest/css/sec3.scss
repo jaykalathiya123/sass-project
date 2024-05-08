@@ -1,0 +1,110 @@
+.conten{
+      padding: 30px;
+      padding-top: 100px;
+      p{
+      color: var(--secondary);
+      letter-spacing: 2px;
+      }
+      h1{
+            font-size: 50px;
+            padding: 10px 0;
+      }
+      h6{
+            font-size: 20px; 
+            font-weight: 500;
+      }
+}
+.box-img-1,.box-img-2,.box-img-3{
+      background-image: url('../img/room-4.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 600px;
+      width: 600px;
+      position: relative;
+      .in-conten{
+            bottom: 20px;
+            padding: 25px;
+            width: 350px;
+            position: absolute;
+            background-color: var(--white);
+            p{
+                  font-size: 30px;
+                  margin-bottom: 10px;
+            }
+            h5{
+                  font-size: 20px;
+                  font-weight: 500;
+            }
+            span{
+                  color: var(--secondary);
+            }
+      }
+}
+.box-img-2{
+      background-image: url('../img/room-5.jpg');
+ 
+}
+.box-img-3{
+      background-image: url('../img/room-6.jpg');
+ 
+}
+.box1{
+      background-image: url('../img/pattern-3.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color:#252638;
+      text-align: center;
+      margin-top: 100px;
+      height: 700px;
+      width: 100%;
+
+             p{
+            color: var(--secondary);
+            letter-spacing: 2px;
+            }
+            h1{
+                  color: var(--white);
+                  font-size: 60px;
+                  margin: 15px 0;
+            }
+            h3{
+                  color: var(--white);
+                  font-weight: 500;
+                        line-height: 40px;
+            }
+            .box-item-1{
+             height: 200px;
+             padding: 20px;
+             width: auto;
+             background-color:#1e1e36;
+             transition: all 0.5s ease-in-out;
+            //  background-color: bisque;
+            &:hover{
+                  background-color:var(--secondary);
+                  h2{
+                        color: black;    
+                      }
+                  i{
+                        color: var(--white);
+                        border: 1px solid var(--white);
+                  }
+              
+            }
+             i{
+                  font-size: 60px;
+                  color: var(--secondary);
+                  border: 1px solid var(--secondary);
+                  font-weight: 700;
+                  padding: 15px;
+                  border-radius: 100%;
+                  transition: all 0.5s ease-in-out;
+                 
+             } 
+             h2{
+                  transition: all 0.5s ease-in-out;
+                  font-size: 20px;
+                  margin-top: 10px;
+                  color: var(--white);
+             }    
+            }
+  }

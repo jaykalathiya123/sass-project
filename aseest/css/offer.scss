@@ -1,0 +1,65 @@
+.offer{
+    background-image: url('../img/pattern-2.png');
+    background-size: cover;
+    background-color: hsl(23, 44%, 96%);
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  
+                    .box-item{
+                        overflow: hidden;
+                        margin: 20px;
+                        width:330px;
+                        height: 460px;
+                        // background-image:url(../img/feature-image-1.jpg) ;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-color: white;
+                        position: relative;
+                        h1{
+                            font-size: 30px;
+                            position: absolute;
+                            top: 60%;
+                            left:10%;
+                        }
+                        p{
+                            position: absolute;
+                            bottom: 10%;
+                            left:10%; 
+                        }
+                        .in-img {
+                            
+                            position: absolute; 
+                            top: 40%;
+                        }
+                        .inside-box{
+                            position: absolute;
+                            right:20px;
+                            top: 40%;
+                            border-radius: 50%;
+                            text-align: center;
+                            padding: 20px;
+                            height: 70px;
+                            width: 70px;
+                            background-color: var(--secondary);
+                            h4{
+                                color: white;
+                            }
+                        }
+                    }
+                    
+                    .text-in-side p{
+                     text-align: center;
+                        color: var(--secondary);
+                        letter-spacing: 2px;
+                    }
+                    .in-text h1{
+                        text-align: center;
+                        margin: 20px 0;
+                        font-size: 50px;
+                    
+                    }
+                  
+                    
+}

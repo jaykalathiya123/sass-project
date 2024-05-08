@@ -1,0 +1,108 @@
+.py-in{
+    padding: 200px 80px ;
+}
+.inside-img{
+    position: relative;
+    .inside-2{
+        img{
+            position: absolute;
+            top: 50%;
+            margin: 20px;
+        
+        }
+    }
+    .box-in{
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        padding-top: 30px;
+        font-size: 20px;
+        color: var(--white);
+        right:20%;
+        top: 150px;
+        height: 200px;
+        width: 200px;
+        background: var(--secondary);
+        i{
+            display: block;
+            font-size: 80px;
+        }
+    }
+    .inside-3{
+        img{
+            position: absolute;
+            z-index: -1;
+            top: 280px;
+            right: -40px;
+        }
+    }
+    .inside-4{
+        img{
+            position: absolute;
+            z-index: -1;
+            top: 320px;
+            left: -40px;
+            
+        }
+    }
+
+
+}
+.item-in{
+    h3{
+        color: var(--secondary);
+        letter-spacing: 5px;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    h4{
+        margin-bottom: 30px;  
+    }
+    .main-button {
+        background: var(--secondary);
+        padding: 20px;
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: black;
+        overflow: hidden;
+        border: solid 2px transparent;
+        transition :(all .6s);
+            span {
+                position: relative;
+                z-index: 1;
+            }
+            &:after {
+          content: '';
+          display: block;
+                position: absolute;
+            left:0;
+            right:0;
+            margin-left: auto;
+            margin-right: auto;
+                height: 0;
+                width: 0;
+                 transition:(all 0.7s);
+                border-radius: 50%;
+                background: linear-gradient(to right, #19032e 0%, #19032e 30%, #19032e 100%);
+                top: 30px;
+            }
+        &:hover {
+            border: solid 2px black;
+            cursor: pointer;
+            color:white;
+             transition :(all .6s);
+            &:after {
+                width: 500px;
+                top: -180px;
+                height: 600px;
+                left: -40px;
+                transition :(all .4s);
+            }
+        }
+    }
+}

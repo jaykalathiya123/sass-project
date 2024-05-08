@@ -1,0 +1,94 @@
+.content-2{
+    text-align: center;
+    p{  
+        letter-spacing: 2px;
+        text-align: center;  
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+.box-iternal{
+    background-color: var(--white);
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 10px 80px rgba(0, 0, 0, .07);
+    max-width: 360px;
+    margin-top: -70px;
+            .blog-1-date{
+            color: var(--secondary);
+            background: rgba(199, 122, 99, .2);
+            display: inline-flex;
+            font-size: 15px;
+            font-weight: 500;
+            padding: 5px 15px;
+            margin-bottom: 15px;
+            }
+                h5{
+                    font-size:18px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: black;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    font-family: 100;
+                }
+                h1{
+                    transition: all 0.5s ease-in-out;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                    font-family: 500;
+                    color: black;
+                    &:hover{
+                        color: var(--secondary);
+                    }
+                }
+                .main-button {
+                    background: var(--white);
+                    padding: 20px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    position: absolute;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: black;
+                    overflow: hidden;
+                    border: 1px solid #e5e5e5;
+                    transition :(all .6s);
+                        span {
+                            // position: relative;
+                            z-index: 1;
+                        }
+                        &:after {
+                      content: '';
+                      display: block;
+                            position: absolute;
+                        left:0;
+                        right:0;
+                        margin-left: auto;
+                        margin-right: auto;
+                            height: 0;
+                            width: 0;
+                             transition:(all 0.7s);
+                            border-radius: 50%;
+                            background-color: var(--secondary);
+                            // background: linear-gradient(to right, #19032e 0%, #19032e 30%, #19032e 100%);
+                            top: 30px;
+                        }
+                    &:hover {
+                        cursor: pointer;
+                        color:white;
+                         transition :(all .6s);
+                        &:after {
+                            width: 500px;
+                            top: -180px;
+                            height: 600px;
+                            left: -40px;
+                            transition :(all .4s);
+                        }
+                    }
+                  }
+
+}

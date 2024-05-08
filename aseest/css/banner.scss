@@ -1,0 +1,90 @@
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    top: 0;
+    position: absolute;
+}
+.banner-in{
+    position: relative;
+    background-image: url('../img/banner-1.jpg');
+    background-size: cover;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    .banner-item{
+        z-index: 1;
+        margin:auto;
+        text-align: center;
+        h1{
+            margin-bottom: 20px;
+            color: var(--secondary);
+            text-transform: uppercase;
+        }
+        p{
+            margin-bottom: 20px;
+            font-size: 90px;
+            color: var(--white);
+        }
+        h2{
+            margin-bottom: 90px;
+            color: var(--white);
+            letter-spacing: 1px;    
+        }
+        // .btn1{
+        //     background-color:var(--secondary);
+        //     padding: 20px;
+        // }
+        .main-button {
+            background: var(--secondary);
+            padding: 20px;
+            display: inline-block;
+            position: relative;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: black;
+            overflow: hidden;
+            border: solid 2px transparent;
+            transition :(all .6s);
+                span {
+                    position: relative;
+                    z-index: 1;
+                }
+                &:after {
+              content: '';
+              display: block;
+                    position: absolute;
+                left:0;
+                right:0;
+                margin-left: auto;
+                margin-right: auto;
+                    height: 0;
+                    width: 0;
+                     transition:(all 0.7s);
+                    border-radius: 50%;
+                    background: linear-gradient(to right, #19032e 0%, #19032e 30%, #19032e 100%);
+                    
+              
+            
+              
+                    top: 30px;
+                }
+            &:hover {
+                border: solid 2px black;
+                cursor: pointer;
+                color:white;
+                 transition :(all .6s);
+                &:after {
+                    width: 500px;
+                    top: -180px;
+                    height: 600px;
+                    left: -40px;
+                    transition :(all .4s);
+                }
+            }
+        }
+        
+    }
+}

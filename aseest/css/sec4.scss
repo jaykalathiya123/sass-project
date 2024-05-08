@@ -1,0 +1,92 @@
+.river{
+    background-image: url("../img/video-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+        i{
+            display: block;
+            color:var(--white);
+            z-index: 1;
+            font-size: 100px;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                color: var(--secondary);
+            }
+
+        }
+        h1{
+            color: var(--white);
+            z-index: 1;
+        
+        }
+}
+.river-benar{
+    position:relative;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    height: 500px;
+    width: 100%;
+}
+.internal{
+    text-align: center;
+    p{
+        color: var(--secondary);
+        letter-spacing: 2px;
+    }
+    h1{
+        color: var( --black-color);
+        font-size: 50px;
+    }
+}
+.pettan-3{
+   position: absolute; 
+   bottom: 100px;
+   left: 420px;
+}
+.box-back{
+    position: absolute;
+    right: 300px;
+    width: 270px;
+    height: 270px;
+    border: 40px solid #f7f7f7;
+    border-radius: 50%;
+}
+.box-model{
+    height:380px;
+    width:900px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 80px;
+    text-align: center;
+    background-color: var(--white);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+
+    .box-image{
+        display: block;
+    }
+    .parson-img{
+        img{
+            border-radius: 50%;
+            margin-bottom: -15%;
+        }
+    }
+    P{
+        
+        font-size: 20px;
+    }
+    h5{
+        margin-bottom: 20px;
+    }
+    h1{
+        margin: 10px 0;
+    }
+}
